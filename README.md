@@ -4,11 +4,11 @@ Starter Jupyter notebooks for exploring the public nmrXiv API from Python.
 
 ## API Groups
 
-The Swagger/OpenAPI spec at `https://nmrxiv.org/docs?api-docs.json` exposes:
+The current development API spec at `https://nmrxiv.org/docs?api-docs.json` exposes:
 
-- `auth`: register, login, logout, current user info, resend verification email.
+- `authentication`: register, login, logout, current user info, email verification, and resend verification email.
 - `public`: list public projects/samples/datasets and fetch a public model by identifier such as `P1`, `S3`, or `D12`.
-- `schemas`: fetch Bioschemas or DataCite metadata globally, by public identifier, or by username/project slug.
+- `schemas`: fetch Bioschemas or DataCite metadata globally, by public identifier.
 - `search`: search compound details by name, SMILES, InChI, or InChIKey.
 
 ## License
