@@ -1,15 +1,17 @@
-# nmrXiv API Notebooks
+[![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fpublic_data_access_api.ipynb)
 
-Starter Jupyter notebooks for exploring the public nmrXiv API from Python.
+## nmrXiv API Notebooks for Jupyter4Chem
 
-## API Groups
+This repository provides Jupyter4Chem-ready notebooks that bind the nmrXiv APIs into executable, documented Python workflows. Each notebook focuses on one API group from the nmrXiv OpenAPI specification and can be used as an interactive starting point for searching, retrieving, and reusing NMR data in computational chemistry workflows.
 
-The current development API spec at `https://nmrxiv.org/docs?api-docs.json` exposes:
+The nmrXiv API specification is available at `https://nmrxiv.org/docs?api-docs.json`.
 
-- `authentication`: register, login, logout, current user info, email verification, and resend verification email.
-- `public`: list public projects/samples/datasets and fetch a public model by identifier such as `P1`, `S3`, or `D12`.
-- `schemas`: fetch Bioschemas or DataCite metadata globally, by public identifier.
-- `search`: search compound details by name, SMILES, InChI, or InChIKey.
+- ### Public Data Access:
+  List public projects, samples, and datasets; fetch a public model by identifier such as `P1`, `S3`, or `D12` - [Open notebook in Binder](https://gesis.mybinder.org/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fpublic_data_access_api.ipynb)
+- ### Scientific Metadata Schemas:
+  Fetch Bioschemas and DataCite metadata globally, by public identifier, or by username/project slug - [Open notebook in Binder](https://gesis.mybinder.org/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fscientific_metadata_schemas_api.ipynb)
+- ### Chemical Search:
+  Search compounds by supported structure query types such as `smiles`, `inchi`, and `inchikey` - [Open notebook in Binder](https://gesis.mybinder.org/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fchemical_search_api.ipynb)
 
 ## License
 
