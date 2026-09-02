@@ -11,7 +11,10 @@ The nmrXiv API specification is available at `https://nmrxiv.org/docs?api-docs.j
 - ### Scientific Metadata Schemas:
   Fetch Bioschemas and DataCite metadata globally, by public identifier, or by username/project slug - [Open notebook in Binder](https://hub.nfdi-jupyter.de/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fscientific_metadata_schemas_api.ipynb)
 - ### Search:
-  Search compounds by supported structure query types such as `smiles`, `inchi`, and `inchikey`, and free-text search public projects, samples, and spectra - [Open notebook in Binder](https://hub.nfdi-jupyter.de/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fsearch_api.ipynb)
+  - Search compounds by structure identifiers (`smiles`, `inchi`, `inchikey`) or by `text` and `tags`
+  - Free Text Search public projects, samples, and spectra
+  - Search public samples and spectra by NMR metadata (solvent, nucleus, temperature, experiment, pulse sequence, scans, manufacturer, and probe)
+    [Open notebook in Binder](https://hub.nfdi-jupyter.de/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fsearch_api.ipynb)
 - ### NMRium Data Access:
   Retrieve the NMRium JSON payload for a public sample or dataset, ready for visualization in NMRium - [Open notebook in Binder](https://hub.nfdi-jupyter.de/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fnmrium_data_access_api.ipynb)
 
