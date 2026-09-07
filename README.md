@@ -13,7 +13,7 @@ The nmrXiv API specification is available at `https://nmrxiv.org/docs?api-docs.j
 - ### Search:
   [Open notebook in Binder](https://hub.nfdi-jupyter.de/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fsearch_api.ipynb)
   - Search compounds by structure identifiers (`smiles`, `inchi`, `inchikey`) or by `text` and `tags`
-  - Free Text Search public projects, samples, and spectra
+  - Free-text search public projects, samples, and spectra
   - Search public samples and spectra by NMR metadata (solvent, nucleus, temperature, experiment, pulse sequence, scans, manufacturer, and probe)
 - ### NMRium Data Access:
   Retrieve the NMRium JSON payload for a public sample or dataset, ready for visualization in NMRium - [Open notebook in Binder](https://hub.nfdi-jupyter.de/v2/gh/NFDI4Chem/nmrxiv-notebooks/HEAD?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fnmrium_data_access_api.ipynb)
